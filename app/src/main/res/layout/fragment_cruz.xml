@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bedoya.esau.yarumaltour2.CruzFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/linearLayoutStyle">
+
+            <LinearLayout
+                style="@style/linearLayoutStyle">
+
+                <TextView
+                    style="@style/textViewStyle.Title"
+                    android:text="@string/aventura"/>
+                <TextView
+                    style="@style/textViewStyle.Content"
+                    android:text="@string/taventura3"
+                    />
+                <ImageView
+                    style="@style/imageViewStyle"
+                    android:src="@drawable/vista_lacruz"/>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>
